@@ -27119,13 +27119,12 @@
                             r.pos = o(i, this.width, this.height),
                             r.loc = s(i, this.width, this.height);
                         if (this.ingredients.shapes[e]) {
-                            if (this.ingredients.shapes[e] !== [r]) {
-                                for (var u in this.ingredients.shapes[e])
-                                    JSON.stringify(this.ingredients.shapes[e][u]) === JSON.stringify(r) && (n = !1);
-                                !0 === n && this.ingredients.shapes[e].push(r)
+                            if (!this.ingredients.shapes[e].some(shape => JSON.stringify(shape) === JSON.stringify(r))) {
+                                this.ingredients.shapes[e].push(r);
                             }
-                        } else
-                            this.ingredients.shapes[e] = [r]
+                        } else {
+                            this.ingredients.shapes[e] = [r];
+                        }
                     }
                     ;
                     var a = i.default;

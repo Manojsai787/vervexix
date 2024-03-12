@@ -2282,8 +2282,8 @@ body.is--animating * {
 
 .img-fluid {
     display: block;
-    height: auto;
-    max-width: 100%
+    height: 100%;
+    width: 100%
 }
 
 .grid {
@@ -2849,6 +2849,12 @@ strong {
     font-size: 28px;
     line-height: 1.45;
     text-transform: uppercase
+   
+}
+
+.intro p{
+    margin-left: 5rem;
+    padding: 2rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -4377,7 +4383,8 @@ html:not(.touch) .Reveal__link:hover .Reveal__visual img {
     top: 0;
     transform-origin: center center;
     transition: opacity .4s cubic-bezier(.36,.33,0,1);
-    width: 400px
+    width: 400px;
+    height: 265px;
 }
 
 .Reveal__visual:before {
