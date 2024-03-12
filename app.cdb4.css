@@ -2189,7 +2189,7 @@ body.is--animating * {
     font-family: Always In My Heart;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/AlwaysInMyHeart.woff2) format("woff2"),url(../fonts/AlwaysInMyHeart.woff) format("woff")
+    src: url(assets/AlwaysInMyHeart.woff2) format("woff2"),url(assets/AlwaysInMyHeart.woff) format("woff")
 }
 
 @font-face {
@@ -2197,7 +2197,7 @@ body.is--animating * {
     font-family: Motter Corpus Std;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/MotterCorpusStd.woff2) format("woff2"),url(../fonts/MotterCorpusStd.woff) format("woff")
+    src: url(assets/MotterCorpusStd.woff2) format("woff2"),url(assets/MotterCorpusStd.woff) format("woff")
 }
 
 @font-face {
@@ -2205,7 +2205,7 @@ body.is--animating * {
     font-family: GT Pressura Mono;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/GTPressuraMono.woff2) format("woff2"),url(../fonts/GTPressuraMono.woff) format("woff")
+    src: url(assets/GTPressuraMono.woff2) format("woff2"),url(assets/GTPressuraMono.woff) format("woff")
 }
 
 @font-face {
@@ -2213,7 +2213,7 @@ body.is--animating * {
     font-family: Avara;
     font-style: normal;
     font-weight: 600;
-    src: url(../fonts/AvaraBold.woff2) format("woff2"),url(../fonts/AvaraBold.woff) format("woff")
+    src: url(assets/AvaraBold.woff2) format("woff2"),url(assets/AvaraBold.woff) format("woff")
 }
 
 @font-face {
@@ -2221,7 +2221,7 @@ body.is--animating * {
     font-family: Oaks;
     font-style: normal;
     font-weight: 600;
-    src: url(../fonts/OaksBold.woff2) format("woff2"),url(../fonts/OaksBold.woff) format("woff")
+    src: url(assets/OaksBold.woff2) format("woff2"),url(assets/OaksBold.woff) format("woff")
 }
 
 @font-face {
@@ -2229,7 +2229,7 @@ body.is--animating * {
     font-family: Pangram;
     font-style: normal;
     font-weight: 900;
-    src: url(../fonts/PangramBlack.woff2) format("woff2"),url(../fonts/PangramBlack.woff) format("woff")
+    src: url(assets/PangramBlack.woff2) format("woff2"),url(assets/PangramBlack.woff) format("woff")
 }
 
 @font-face {
@@ -2237,7 +2237,7 @@ body.is--animating * {
     font-family: Pangram;
     font-style: normal;
     font-weight: 500;
-    src: url(../fonts/PangramRegular.woff2) format("woff2"),url(../fonts/PangramRegular.woff) format("woff")
+    src: url(assets/PangramRegular.woff2) format("woff2"),url(assets/PangramRegular.woff) format("woff")
 }
 
 .is--hidden {
@@ -2402,7 +2402,8 @@ body.is--animating * {
 }
 
 svg {
-    display: block
+    display: block;
+    scale: 1.6;
 }
 
 .visual__container {
@@ -5452,7 +5453,7 @@ html:not(.touch) .Games__swiper .swiper-buttons>.prev:hover .icon {
 .Game__card {
     display: block;
     position: relative;
-    width: 100%
+    width: 150%
 }
 
 .Game__card .wrapper {
@@ -5462,7 +5463,7 @@ html:not(.touch) .Games__swiper .swiper-buttons>.prev:hover .icon {
     position: absolute;
     top: 0;
     transition: transform .8s cubic-bezier(.36,.33,0,1);
-    width: 100%
+    width: 50%
 }
 
 html:not(.touch) .Game__card:hover .wrapper {

@@ -58151,7 +58151,7 @@
                     var t = e.from
                       , r = e.trigger
                       , n = e.done;
-                    r.dataset && r.dataset.pageTitle ? h.pageLoader.querySelector(".Page__title").innerHTML = "".concat(r.dataset.pageTitle, ".") : h.pageLoader.querySelector(".Page__title").innerHTML = "Lucky Folks.",
+                    r.dataset && r.dataset.pageTitle ? h.pageLoader.querySelector(".Page__title").innerHTML = "".concat(r.dataset.pageTitle, ".") : h.pageLoader.querySelector(".Page__title").innerHTML = "THE LITERARY CIRCLE",
                     h.titleSplit = new yi(h.pageLoader.querySelector(".Page__title"),{
                         type: "words, chars"
                     });
