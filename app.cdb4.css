@@ -2282,8 +2282,8 @@ body.is--animating * {
 
 .img-fluid {
     display: block;
-    height: 100%;
-    width: 100%
+    height: auto;
+    max-width: 100%
 }
 
 .grid {
@@ -2849,12 +2849,6 @@ strong {
     font-size: 28px;
     line-height: 1.45;
     text-transform: uppercase
-   
-}
-
-.intro p{
-    margin-left: 5rem;
-    padding: 2rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -4383,8 +4377,7 @@ html:not(.touch) .Reveal__link:hover .Reveal__visual img {
     top: 0;
     transform-origin: center center;
     transition: opacity .4s cubic-bezier(.36,.33,0,1);
-    width: 400px;
-    height: 265px;
+    width: 400px
 }
 
 .Reveal__visual:before {
@@ -5452,7 +5445,7 @@ html:not(.touch) .Games__swiper .swiper-buttons>.prev:hover .icon {
 .Game__card {
     display: block;
     position: relative;
-    width: 100%
+    width: 150%
 }
 
 .Game__card .wrapper {
@@ -5462,7 +5455,7 @@ html:not(.touch) .Games__swiper .swiper-buttons>.prev:hover .icon {
     position: absolute;
     top: 0;
     transition: transform .8s cubic-bezier(.36,.33,0,1);
-    width: 100%
+    width: 50%
 }
 
 html:not(.touch) .Game__card:hover .wrapper {
@@ -6269,10 +6262,12 @@ html:not(.touch) .Event__card[href]:hover .inner {
 
 .Event__card.is--beige {
     background: #dbbba8
+
 }
 
 .Event__card.is--beige .inner {
     background: #ead7cc
+    
 }
 
 .Event__card.is--beige .Event__title {
@@ -6285,6 +6280,7 @@ html:not(.touch) .Event__card[href]:hover .inner {
 
 .Event__card.is--yellow .inner {
     background: #eba13d
+
 }
 
 .Event__card.is--yellow .Event__icon svg>* {
