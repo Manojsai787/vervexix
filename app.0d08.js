@@ -29472,7 +29472,7 @@
                                 var t = i._isGlobal ? window : i;
                                 if (t.preload) {
                                     var r = document.getElementById(i._loadingScreenId);
-                                    r || ((r = document.createElement("div")).innerHTML = "Loading...",
+                                    r || ((r = document.createElement("div")).innerHTML = "The Literary Circle, NIT DURGAPUR",
                                     r.style.position = "absolute",
                                     r.id = i._loadingScreenId,
                                     (i._userNode || document.body).appendChild(r));
