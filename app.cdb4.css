@@ -3070,6 +3070,17 @@ html:not(.touch) .Btn:hover,html:not(.touch) .Toggle__menu:hover {
     margin-right: 20px
 }
 
+.responsive-div{
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .responsive-div{
+        width: 90%;
+    }
+}
+
+
 .Anchors__item:last-child {
     margin-right: 0
 }
@@ -3087,7 +3098,7 @@ html:not(.touch) .Btn:hover,html:not(.touch) .Toggle__menu:hover {
 .Link__txt {
     color: #eba13d;
     display: block;
-    font-family: Always In My Heart,serif;
+    font-family: Avara, sans-serif;
     font-size: 2.7rem;
     line-height: 1
 }
@@ -8245,3 +8256,4 @@ html:not(.touch) .Place .content .Reveal__link:hover .Reveal__visual .visual img
         width: auto
     }
 }
+
